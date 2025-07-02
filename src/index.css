@@ -1,0 +1,136 @@
+@import "tailwindcss";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body.light{
+    background-color: rgb(255, 255, 255);
+    
+}
+body.dark{
+    background-color: black;
+    /* color: white; */
+
+}
+.light header{
+     background-color: rgb(0, 0, 0);
+     
+}
+.dark header{
+       background-color: rgb(137, 1, 249);
+}
+.dark button{
+     background-color: rgb(137, 1, 249);
+}
+.light h2{
+    color: black;
+    
+}
+
+.light .skill{
+    background-color: black;
+    padding: 10px; 
+    transition: all .1s ;
+   
+}
+.dark h1{
+    color: white;
+}
+.light h1{
+    color: black;
+}
+.light p{
+    color: black;
+}
+.light .img{
+    box-shadow: 2px 1px 7px black;
+}
+.skill{
+    /* scale: 1; */
+    transition: all 0.3s ;
+}
+.skill:hover{
+   scale: 1.2;
+   transition: all 0.3s ;
+}
+
+
+
+/* for dark theme */
+.dark .btn{
+    
+    box-shadow:0px 0px 6px rgba(147, 2, 250, 0.916);
+}
+.dark .btn:active{
+    
+    background-color: #000;
+}
+
+/* for light theme */
+.light .btn{
+    background-color: black;
+    box-shadow:0px 0px 10px black;
+}
+.light .btn:active{
+    
+    background-color: #f9f8f8;
+    color: black;
+}
+
+
+/* form on dark*/
+
+
+.dark form{
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 7px rgb(155, 155, 155);
+}
+.dark form input{
+    background-color: rgba(237, 234, 234, 0.123);
+    border-radius: 10px;
+    color: white;
+}
+.dark form textarea{
+     background-color: rgba(225, 221, 221, 0.116);
+    border-radius: 10px;
+    color: white;
+}
+.dark form button{
+     background-color: rgb(138, 3, 249);
+    border-radius: 10px
+}
+
+
+
+/* form on light*/
+
+.light form{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 7px rgb(2, 2, 2);
+}
+.light form input{
+    background-color: rgba(249, 248, 248, 0.95);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+}
+.light form textarea{
+     background-color: rgba(249, 248, 248, 0.95);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+}
+.light form button{
+     background-color: rgb(0, 0, 0);
+    border-radius: 10px
+}
+
+.dark:active form button{
+    background-color: rgba(133, 2, 255, 0.881);
+}
+
+.light:active form button{
+    background-color: rgba(6, 0, 11, 0.863);
+}
