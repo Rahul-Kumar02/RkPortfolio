@@ -5,7 +5,7 @@ function About() {
     <div className=" min-h-screen w-full flex flex-col items-center justify-center  px-4 md:flex md:items-center md:flex-col md:px-20 lg:flex lg:flex-col lg:items-center lg:px-20 gap-10 py-20">
       <h2 className="w-full text-2xl text-white">About</h2>
       <p className="text-white">
-        Hi, I'm Rahul, a passionate Fontend Developer from india with a strong
+        Hi, I'm Rahul, a passionate Frontend Developer from india with a strong
         foundation in HTML, CSS, JavaScript, and React.js. I enjoy creating fast, responsive, and clean UI experiences using tools like Tailwind CSS, Vite, Axios, and Context API. 
       </p>
       <p className="text-white">
