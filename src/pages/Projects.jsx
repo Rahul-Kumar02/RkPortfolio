@@ -15,8 +15,12 @@ function Projects() {
 
             <h1 className=' w-[100%] text-[20px]'>Todo App</h1>
             <div className='flex items-center justify-between w-[100%]'>
-              <button className='bg-black px-2 text-white p-1 cursor-pointer'>View Project</button>
-              <button className='bg-black p-1 text-white px-2 cursor-pointer'>View Code</button>
+              <button className='bg-black px-2 text-white p-1 cursor-pointer rounded-[6px]'>
+               <a href="https://interntodoapp.vercel.app/" target='_blank'> View Project</a>
+                </button>
+              <button className='bg-black p-1 text-white px-2 cursor-pointer rounded-[6px]'>
+                <a href="https://github.com/Rahul-Kumar02/todoApp" target='_blank'>View Code</a>
+              </button>
             </div>
         </div>
 
@@ -26,9 +30,13 @@ function Projects() {
            </div>
             <h1 className='w-[100%] text-[20px]'>Calculatore App</h1>
               <div className='flex items-center justify-between w-[100%]'>
-              <button className='bg-black px-2 text-white p-1 cursor-pointer
-              '>View Project</button>
-              <button className='bg-black p-1 text-white px-2 cursor-pointer'>View Code</button>
+              <button className='rounded-[6px] bg-black px-2 text-white p-1 cursor-pointer
+              '>
+                <a href="https://iterncalculatorpp.vercel.app/" target='_blank'>View Project</a>
+              </button>
+              <button className='rounded-[6px] bg-black p-1 text-white px-2 cursor-pointer'>
+                <a href="https://github.com/Rahul-Kumar02/calculatorApp" target='_blank'>View Code</a>
+              </button>
             </div>
         </div>
 
@@ -38,8 +46,12 @@ function Projects() {
            </div>
             <h1 className='w-[100%] text-[20px]'>Weather App</h1>
              <div className='flex items-center justify-between w-[100%]'>
-              <button className='bg-black px-2 text-white p-1 cursor-pointer '>View Project</button>
-              <button className='bg-black p-1 text-white px-2 cursor-pointer'>View Code</button>
+              <button className='bg-black px-2 text-white p-1 cursor-pointer rounded-[6px] '>
+                <a href="https://internweatherapp.vercel.app/" target='_blank'>View Project</a>
+              </button>
+              <button className='bg-black p-1 text-white px-2 cursor-pointer rounded-[6px] '>
+               <a href="https://github.com/Rahul-Kumar02/weatherApp" target='_blank'> View Code </a>
+                </button>
             </div>
         </div>
        </div>

@@ -43,6 +43,7 @@ function Contact() {
           placeholder="Your Name"
           required
           className="p-2 "
+          autoComplete="off"
         />
         <input
           name="email"
@@ -50,6 +51,7 @@ function Contact() {
           placeholder="Your Email"
           required
           className="p-2"
+          autoComplete="off"
         />
         <textarea
           name="message"

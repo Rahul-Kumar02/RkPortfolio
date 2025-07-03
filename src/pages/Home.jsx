@@ -1,5 +1,6 @@
 import React from "react";
 import user from '../../public/user.jpg'
+import { Link } from "react-router-dom";
 function Home() {
   return (
     <div className="lg:min-h-screen md:min-h-screen md:w-full lg:w-full min-h-screen w-full lg:px-20 px-4 lg:flex flex items-center  md:flex-row lg:flex-row flex-col lg:items-center md:items-center lg:justify-between md:gap-4 lg:gap-4 gap-4 justify-center md:justify-between py-20">
@@ -20,11 +21,14 @@ function Home() {
         </p>
 
         <div className="flex w-[100%] md:w-[276px] lg:w-[276px] gap-3 justify-between md:flex md:gap-4 ">
+            <a href="https://drive.google.com/file/d/11Oe8oMitxTZ5rcpteTWZcKwkoK07fDlq/view?usp=drive_link" target="_blank" rel="noorpener noreferrer"> 
           <button className=" btn text-white p-2 px-4 rounded-md cursor-pointer text-[17px] ">
-            View Resume
+         View Resume
           </button>
+          </a>
           <button className="btn text-white p-2 px-4 rounded-md cursor-pointer text-[17px] ">
-            Contact Me
+            <Link to='/contact'> Contact Me</Link>
+           
           </button>
         </div>
       </div>
