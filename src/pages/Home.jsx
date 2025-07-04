@@ -36,8 +36,8 @@ function Home() {
       
         {/* <div className="bg-red-500"> */}
           <div className=" mt-15 md:mt-0 lg:mt-0
-         h-[480px] w-[300px] md:w-[300px] md:h-[420px] lg:w-[300px] rounded-[30px] lg:h-[450px] bg-white shadow-xl p-5 overflow-hidden img">
-          <img src={user} alt="" className="w-[100%] h-[100%]  rounded-[30px]"/>
+         h-[300px] w-[300px] md:w-[350px] md:h-[250px] lg:w-[440px] rounded-[50%] lg:h-[350px] bg-white shadow-xl p-5 overflow-hidden img">
+          <img src={user} alt="" className="w-[100%] h-[100%] object-cover  rounded-[50%]"/>
         </div>
         </div>
       // </div>
