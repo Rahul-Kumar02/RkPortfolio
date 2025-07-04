@@ -21,7 +21,7 @@ function Home() {
         </p>
 
         <div className="flex w-[100%] md:w-[276px] lg:w-[276px] gap-3 justify-between md:flex md:gap-4 ">
-            <a href="https://drive.google.com/file/d/11Oe8oMitxTZ5rcpteTWZcKwkoK07fDlq/view?usp=drive_link" target="_blank" rel="noorpener noreferrer"> 
+            <a href="https://drive.google.com/file/d/12-4m3Eo0Y63kEHgJuk1VCjABzwrxni5t/view?usp=drive_link" target="_blank" rel="noorpener noreferrer"> 
           <button className=" btn text-white p-2 px-4 rounded-md cursor-pointer text-[17px] ">
          View Resume
           </button>
