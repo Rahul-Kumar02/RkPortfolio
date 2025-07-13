@@ -64,10 +64,10 @@ function Projects() {
               <div className='flex items-center justify-between w-[100%]'>
               <button className='rounded-[6px] bg-black px-2 text-white p-1 cursor-pointer
               '>
-                <a href="https://iterncalculatorpp.vercel.app/" target='_blank'>View Project</a>
+                <a href="https://movie-house-jet.vercel.app/" target='_blank'>View Project</a>
               </button>
               <button className='rounded-[6px] bg-black p-1 text-white px-2 cursor-pointer'>
-                <a href="https://github.com/Rahul-Kumar02/calculatorApp" target='_blank'>View Code</a>
+                <a href="https://github.com/Rahul-Kumar02/Movie-House" target='_blank'>View Code</a>
               </button>
             </div>
         </div>
